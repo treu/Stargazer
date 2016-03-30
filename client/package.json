@@ -1,0 +1,16 @@
+{
+  "name": "BlockViewer",
+  "description": "Visualize the Bitcoin Payment Network",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "jade": "*",
+	"request": "*",
+	"mysql": "*",
+	"loggly": "*"
+  }
+}

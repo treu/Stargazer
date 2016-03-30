@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2013-01-02">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="owner_id" title="owner_id" type="long"></attribute>
+      <attribute id="Aliases" title="Aliases" type="string"></attribute>
+      <attribute id="Total Owned Addresses" title="Total Owned Addresses" type="integer"></attribute>
+      <attribute id="Total Incoming Transactions" title="Total Incoming Transactions" type="integer"></attribute>
+      <attribute id="Total Outgoing Transactions" title="Total Outgoing Transactions" type="integer"></attribute>
+      <attribute id="Total Transactions" title="Total Transactions" type="integer"></attribute>
+      <attribute id="Total Incoming Amount" title="Total Incoming Amount" type="double"></attribute>
+      <attribute id="Total Outgoing Amount" title="Total Outgoing Amount" type="double"></attribute>
+      <attribute id="First Transfer Time" title="First Transfer Time" type="long"></attribute>
+      <attribute id="Last Transfer Time" title="Last Transfer Time" type="long"></attribute>
+      <attribute id="Last Block Calculated" title="Last Block Calculated" type="integer"></attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="neo4j_rt" title="Neo4j Relationship Type" type="string"></attribute>
+      <attribute id="value" title="value" type="long"></attribute>
+      <attribute id="time" title="time" type="long"></attribute>
+    </attributes>
+    <nodes>
+      <node id="47184810" label="47184810">
+        <attvalues>
+          <attvalue for="owner_id" value="47184810"></attvalue>
+          <attvalue for="Aliases" value="[]"></attvalue>
+          <attvalue for="Total Owned Addresses" value="1"></attvalue>
+          <attvalue for="Total Incoming Transactions" value="1"></attvalue>
+          <attvalue for="Total Outgoing Transactions" value="0"></attvalue>
+          <attvalue for="Total Transactions" value="1"></attvalue>
+          <attvalue for="Total Incoming Amount" value="1.6728"></attvalue>
+          <attvalue for="Total Outgoing Amount" value="0.0"></attvalue>
+          <attvalue for="First Transfer Time" value="1356773205"></attvalue>
+          <attvalue for="Last Transfer Time" value="1356773205"></attvalue>
+          <attvalue for="Last Block Calculated" value="214455"></attvalue>
+        </attvalues>
+        <viz:size value="3.0"></viz:size>
+        <viz:position x="-11.797007" y="-7.901876" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="47182105" label="47182105">
+        <attvalues>
+          <attvalue for="owner_id" value="47182105"></attvalue>
+          <attvalue for="Aliases" value="[]"></attvalue>
+          <attvalue for="Total Owned Addresses" value="1"></attvalue>
+          <attvalue for="Total Incoming Transactions" value="1"></attvalue>
+          <attvalue for="Total Outgoing Transactions" value="2"></attvalue>
+          <attvalue for="Total Transactions" value="3"></attvalue>
+          <attvalue for="Total Incoming Amount" value="8719.35949273"></attvalue>
+          <attvalue for="Total Outgoing Amount" value="8719.35899273"></attvalue>
+          <attvalue for="First Transfer Time" value="1356773065"></attvalue>
+          <attvalue for="Last Transfer Time" value="1356773205"></attvalue>
+          <attvalue for="Last Block Calculated" value="214455"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="17.389381" y="11.647758" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="98884934" source="47182105" target="47184810" label="1.6728">
+        <attvalues>
+          <attvalue for="value" value="167280000"></attvalue>
+          <attvalue for="time" value="1356773205"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

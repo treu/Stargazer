@@ -100,7 +100,7 @@ I'm here to answer any and all questions and ideas.  If you would like to contri
 ## License
 MIT License
 
-Author 2012 - John Russell
+Author 2016 - Raul Estrada
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
